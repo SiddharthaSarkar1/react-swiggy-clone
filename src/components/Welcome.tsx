@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import food from "../images/food.jpg";
 import swiggy from "../images/swiggy.png";
 import Login from "./Login";
+import Signup from "./Signup";
 
 const headlineArray = [
   "Late night at office?",
@@ -15,6 +16,7 @@ const headlineArray = [
 const Welcome = () => {
 
     const [loginModal, setLoginModal] = useState(false);
+    const [signupModal, setSignupModal] = useState(false);
 
   return (
     <div className="flex">
@@ -24,7 +26,7 @@ const Welcome = () => {
           <h1 className="font-bold ml-60 cursor-pointer hover:text-orange-500" onClick={() => setLoginModal(true)}>
             Login
           </h1>
-          <button className="w-28 bg-black text-white font-bold p-3 ml-7">
+          <button className="w-28 bg-black text-white font-bold p-3 ml-7" onClick={() => setSignupModal(true)}>
             Sign Up
           </button>
         </div>
@@ -39,14 +41,15 @@ const Welcome = () => {
           className="border border-orange-500 p-4 mt-12 w-8/12"
           placeholder="Enter your delivary location"
         />
-        <button className="bg-orange-500 text-white font-bold p-4 w-36">
+        <button className="bg-orange-500 border-orange-500 text-white font-bold p-4 w-36">
           Find food
         </button>
         <h1 className="text-zinc-400 text-sm mt-8">POPULAR CITIES IN INDIA</h1>
         <h1 className="font-bold text-zinc-700 mt-4">Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata Mumbai Pune & more.</h1>
       </div>
       <img src={food} className="h-screen w-5/12" alt="food_image" />
-      { loginModal && <Login /> }
+      { loginModal && <Login setLoginModal={setLoginModal} /> }
+      { signupModal && <Signup setSignupModal={setSignupModal} /> }
     </div>
   );
 };
