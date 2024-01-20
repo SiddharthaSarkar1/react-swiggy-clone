@@ -11,69 +11,69 @@ import pancake from "../images/pancake.png";
 
 const Menu = () => {
   return (
-    <div className="flex items-center mt-10">
-      <div className="ml-12 cursor-pointer">
+    <div className="flex justify-center items-center mt-10">
+      <div className="w-24 h-24 m-4 cursor-pointer">
         <img
           src={burger}
-          className="w-28 h-28 rounded-full shadow-sm shadow-black"
+          className="w-20 h-20 rounded-full shadow-sm shadow-black"
         />
-        <p className=" font-semibold text-gray-500 text-xl ml-4">Burger</p>
+        <p className=" font-semibold text-gray-500 text-xl">Burger</p>
       </div>
-      <div className="ml-12 cursor-pointer">
+      <div className="w-24 h-24 m-4 cursor-pointer">
         <img
           src={biriyani}
-          className="w-28 h-28 rounded-full shadow-sm shadow-black"
+          className="w-20 h-20 rounded-full shadow-sm shadow-black"
         />
-        <p className="font-semibold text-gray-500 text-xl ml-6">Asian</p>
+        <p className="font-semibold text-gray-500 text-xl text-center">Asian</p>
       </div>
-      <div className="ml-12 cursor-pointer">
+      <div className="w-24 h-24 m-4 cursor-pointer">
         <img
           src={pizza}
-          className="w-28 h-28 rounded-full shadow-sm shadow-black"
+          className="w-20 h-20 rounded-full shadow-sm shadow-black"
         />
-        <p className="font-semibold text-gray-500 text-xl ml-6">Italian</p>
+        <p className="font-semibold text-gray-500 text-xl text-center">Italian</p>
       </div>
-      <div className="ml-12 cursor-pointer">
+      <div className="w-24 h-24 m-4 cursor-pointer">
         <img
           src={chinese}
-          className="w-28 h-28 rounded-full shadow-sm shadow-black"
+          className="w-20 h-20 rounded-full shadow-sm shadow-black"
         />
-        <p className="font-semibold text-gray-500 text-xl ml-6">Chinese</p>
+        <p className="font-semibold text-gray-500 text-xl text-center">Chinese</p>
       </div>
-      <div className="ml-12 cursor-pointer">
+      <div className="w-24 h-24 m-4 cursor-pointer">
         <img
           src={shawarma}
-          className="w-28 h-28 rounded-full shadow-sm shadow-black"
+          className="w-20 h-20 rounded-full shadow-sm shadow-black"
         />
-        <p className="font-semibold text-gray-500 text-xl ml-6">Asian</p>
+        <p className="font-semibold text-gray-500 text-xl text-center">Asian</p>
       </div>
-      <div className="ml-12 cursor-pointer">
+      <div className="w-24 h-24 m-4 cursor-pointer">
         <img
           src={pasta}
-          className="w-28 h-28 rounded-full shadow-sm shadow-black"
+          className="w-20 h-20 rounded-full shadow-sm shadow-black"
         />
-        <p className="font-semibold text-gray-500 text-xl ml-6">Indonesian</p>
+        <p className="font-semibold text-gray-500 text-xl text-center">Indonesian</p>
       </div>
-      <div className="ml-12 cursor-pointer">
+      <div className="w-24 h-24 m-4 cursor-pointer">
         <img
           src={salad}
-          className="w-28 h-28 rounded-full shadow-sm shadow-black"
+          className="w-20 h-20 rounded-full shadow-sm shadow-black"
         />
-        <p className="font-semibold text-gray-500 text-xl ml-6">Vegetarian</p>
+        <p className="font-semibold text-gray-500 text-xl text-center">Vegetarian</p>
       </div>
-      <div className="ml-12 cursor-pointer">
+      <div className="w-24 h-24 m-4 cursor-pointer">
         <img
           src={cake}
-          className="w-28 h-28 rounded-full shadow-sm shadow-black"
+          className="w-20 h-20 rounded-full shadow-sm shadow-black"
         />
-        <p className="font-semibold text-gray-500 text-xl ml-6">European</p>
+        <p className="font-semibold text-gray-500 text-xl text-center">European</p>
       </div>
-      <div className="ml-12 cursor-pointer">
+      <div className="w-24 h-24 m-4 cursor-pointer">
         <img
           src={pancake}
-          className="w-28 h-28 rounded-full shadow-sm shadow-black"
+          className="w-20 h-20 rounded-full shadow-sm shadow-black"
         />
-        <p className="font-semibold text-gray-500 text-xl ml-6">
+        <p className="font-semibold text-gray-500 text-xl text-center">
           International
         </p>
       </div>
